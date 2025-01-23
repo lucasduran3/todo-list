@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="meyerReset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>todo-list</title>
+  </head>
+  <body>
+    <!--sidebar-->
+    <div class="side-panel">
+      <header role="banner" class="title">
+        <h1>Lorem, ipsum</h1>
+      </header>
+
+      <section class="lists-section">
+        <nav class="lists-nav">
+          <div class="list-item">
+            <span class="list-icon">🏠</span>
+            <span class="list-name">Home</span>
+            <span class="list-count">8</span>
+          </div>
+          <div class="list-item">
+            <span class="list-icon">🏠</span>
+            <span class="list-name">Home</span>
+            <span class="list-count">8</span>
+          </div>
+          <div class="list-item">
+            <span class="list-icon">🏠</span>
+            <span class="list-name">Home</span>
+            <span class="list-count">8</span>
+          </div>
+          <div class="list-item">
+            <span class="list-icon">🏠</span>
+            <span class="list-name">Home</span>
+            <span class="list-count">8</span>
+          </div>
+        </nav>
+        <button id="new-list-btn" class="create-button">
+          <span class="btn-icon">+</span>
+          Create new list
+        </button>
+      </section>
+    </div>
+
+    <!--main content-->
+    <main class="main-content">
+      <header class="top-header">
+        <div class="greetings">
+          <h2>Good Morning, Name! 👋</h2>
+          <p>Today, Wed 6 July 2023</p>
+        </div>
+        <div class="toolbar">
+          <button class="filter-btn">
+            Today <span class="icon-btn"></span>
+          </button>
+        </div>
+      </header>
+
+      <!--todo list-->
+      <section class="todo-list">
+        <div class="todo-item">
+          <input type="checkbox" id="task1" />
+          <label for="task1">Read a book</label>
+          <span class="time">08:00 - 09:00</span>
+        </div>
+        <div class="todo-item">
+          <input type="checkbox" id="task1" />
+          <label for="task1">Read a book</label>
+          <span class="time">08:00 - 09:00</span>
+        </div>
+        <div class="todo-item">
+          <input type="checkbox" id="task1" />
+          <label for="task1">Read a book</label>
+          <span class="time">08:00 - 09:00</span>
+        </div>
+        <div class="todo-item">
+          <input type="checkbox" id="task1" />
+          <label for="task1">Read a book</label>
+          <span class="time">08:00 - 09:00</span>
+        </div>
+
+        <div class="create-task">
+          <button class="create-button" id="task-btn">
+            <span class="btn-icon">✏️</span>
+            Create new task
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

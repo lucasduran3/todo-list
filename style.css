@@ -1,0 +1,93 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: rgb(241, 235, 227);
+}
+
+.side-panel {
+  background-color: white;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.side-panel .title h1 {
+  font-weight: bold;
+  font-size: 1.45rem;
+}
+
+.lists-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3.5rem;
+}
+
+.lists-section .lists-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-left: 0.8rem;
+}
+
+.list-item {
+  display: flex;
+  gap: 1rem;
+}
+
+.list-count {
+  margin-left: auto;
+}
+
+.create-button {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-content {
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.top-header .greetings {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.top-header .greetings h2 {
+  font-weight: bold;
+  font-size: 1.45rem;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  flex-grow: 6;
+}
+
+.todo-item {
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.todo-item .time {
+  margin-left: auto;
+}
+
+.create-task {
+  padding: 5rem 0;
+}
